@@ -1,5 +1,5 @@
 
-public class Chien extends Animal{
+public class Chien extends Animal implements Bruit{
 
 	@Override
 	public void seDeplacer(int x, int y) {
@@ -8,7 +8,9 @@ public class Chien extends Animal{
 		System.out.println("Je bouge, WOUF");
 	}
 
-	
+	public void faireDuBruit() {
+		System.out.println("WOUUF WOUUF WOUUUF");
+	}
 
 	
 }
