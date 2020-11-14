@@ -9,4 +9,5 @@ public abstract class Animal {
 		abs += x;
 		ord += y;
 	}
+	
 }
