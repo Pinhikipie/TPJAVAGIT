@@ -5,8 +5,8 @@ public class Point {
 	private int ord;
 	
 	public Point (){
-		this.abs=40;
-		this.ord=40;
+		this.abs=50;
+		this.ord=50;
 	}
 	
 	public void translation(int x, int y) {
